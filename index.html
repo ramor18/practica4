@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Verificador de Cedula</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <header>
+      <h3>JCE de Ramonita 👵🏽</h3>
+    </header>
+    <div class="container">
+      <label for="cedulaID">Introduzca la Cedula</label>
+      <input
+        id="cedulaID"
+        placeholder="XXXXXXXXXXX"/>
+      <input
+      type="button"
+      value="Validar"
+      onClick="validarID()"/>
+    </div>
+
+
+  <div class="container2">
+      <label for="cedulaVerif" ></label>
+      <textarea
+        disabled="true"
+        id="cedulaVerif"
+        style="font-size: 15px"
+      ></textarea>
+    </div>
+        
+    
+
+    <script  src="./index.js"></script>
+  </body>
+</html>
